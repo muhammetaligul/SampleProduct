@@ -12,7 +12,7 @@ namespace SampleProduct.ORM.Models.DB
         public decimal? Price { get; set; }
         public bool? IsActive { get; set; }
         public string Description { get; set; }
-
+        public string Slug { get; set; }
         public virtual Category Category { get; set; }
     }
 }

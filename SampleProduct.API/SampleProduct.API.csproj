@@ -25,6 +25,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\SampleProduct.ORM\SampleProduct.ORM.csproj" />
+    <ProjectReference Include="..\SampleProduct.Service\SampleProduct.Service.csproj" />
   </ItemGroup>
 
 </Project>

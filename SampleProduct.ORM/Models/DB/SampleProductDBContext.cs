@@ -54,6 +54,8 @@ namespace SampleProduct.ORM.Models.DB
 
                 entity.Property(e => e.ProductName).HasMaxLength(50);
 
+                entity.Property(e => e.Slug).HasMaxLength(50);
+
                 entity.HasOne(d => d.Category)
                     .WithMany(p => p.Product)
                     .HasForeignKey(d => d.CategoryId)
